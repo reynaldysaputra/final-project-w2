@@ -7,11 +7,11 @@
 </head>
 <body>
     
-    <form action="<?= $this->config->base_url() ?>cetak" method='post'>
+    <form action="<?= base_url() ?>matakuliah/cetak" method='post'>
         <label for="kode">Kode MTK : </label>
-        <input type="text" id='kode'><br>
+        <input type="text" id='kode' name='kode'><br>
         <label for="nama">Nama MTK : </label>
-        <input type="text" id='nama'><br>
+        <input type="text" id='nama' name='nama'><br>
 
         <select name="sks" id="sks">
             <option value=" ">Pilih SKS</option>
