@@ -1,0 +1,59 @@
+@media only screen  
+     and (min-width : 200px)
+     and (max-width : 758px)
+     and (orientation : portrait) {
+        .navigation {
+            position: fixed;
+            top: 0;
+            box-shadow: 4px 0 20px -5px rgba(0, 0, 0, 0.1) !important;
+            background: white;
+        }
+
+        .display-container {
+            margin-top: 15% !important;
+            margin-bottom: 15% !important;
+            padding-left: 10px;
+            padding-right: 10px;
+        }
+
+        .img-header {
+            margin-top: 5%;
+        }
+
+        .container {
+            width: 100%;
+        }
+
+        .headerFontNav {
+            margin-left: 45%;
+        }
+
+        .img-1 {
+            width: 100%;
+        }
+
+        .display-body-2-content-1 {
+            margin-top: 5% !important;
+        }
+
+        .display-body-3 .content1 {
+            grid-template-columns: 100% !important;
+            margin: 0px;
+        }
+
+        .display-body-3 .content1 .card .cardBody h3{
+            font-size: 1.5rem;
+        }
+
+        .display-body-3 .content2 h2{
+            font-size: 2rem;
+        }
+
+        .display-body-3 .content2 ul{
+            margin-top: 10% !important;
+        }
+
+        .display-body-4-content-2 {
+            grid-template-columns: 100%;
+        }
+}
