@@ -97,6 +97,15 @@
         .cards .contentCards {
             margin-top: 5%;
         }
+        
+        .contentStatistik {
+            margin-top: 10%;
+            grid-template-columns: 70%;
+        }
+
+        .statistikCard {
+            margin-top: 10%;
+        }
 
         footer .contentFooter {
             grid-template-columns: 100%;
