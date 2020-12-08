@@ -5,7 +5,7 @@
                 <div class="col xl5 l5 s12">
                     <p class='p-1'>COVID-19 AWARENESS</p>
                     <h1 class='h-1'>Tetap aman. Tinggal dirumah</h1>
-                    <p>Tubuh yang baik adalah tubuh yang sehat. Mulai dari hal sederhana seperti menjaga jarak, anda bisa meminimalisir tertularnya penyakit yang dapat ditransfer melalui udara ataupun sentuhan ringan. Mulailah menjaga jarak dari sekarang, karena menjaga jarak lebih mudah dari pada mengobati.</p>
+                    <p id='contentHeader'>Tubuh yang baik adalah tubuh yang sehat. Mulai dari hal sederhana seperti menjaga jarak, anda bisa meminimalisir tertularnya penyakit yang dapat ditransfer melalui udara ataupun sentuhan ringan. Mulailah menjaga jarak dari sekarang, karena menjaga jarak lebih mudah dari pada mengobati.</p>
                 </div>
                 <div class="col xl7 l7 s12 img-header">
                     <img src="<?= $this->config->base_url()?>assets/img/home/home.png" alt="header" class='img-1'>
@@ -143,7 +143,7 @@
     <div class="container display-body-4">
         <div class="row">
             <div class="col xl7 display-body-4-content-1 center-align">
-                <h2>Cara melindungi diri dari penularam virus corona</h2>
+                <h2>Cara melindungi diri dari penularan virus corona</h2>
                 <p>Selalu menjaga jarak dimanapun anda berada, selalu menggunakan masker didalam ataupun diluar rumah serta selalu menjaga kebersihan tangan dan wajah.</p>
             </div>
         </div>
@@ -177,3 +177,46 @@
         </div>
     </div>
     <!-- Akhir Body bagaimana melindungi diri -->
+
+    <!-- Body tentang gejala corona -->
+    <div class="display-body-3" id='display-body-5'>
+        <div class="container">
+            <div class="row">
+                <div class="col xl7 display-body-4-content-1 center-align">
+                    <h2>Gejala yang ditimbukan dari virus corona</h2>
+                    <p>Gejala awal infeksi virus Corona atau COVID-19 bisa menyerupai gejala flu, yaitu demam, pilek, batuk kering, sakit tenggorokan, dan sakit kepala. Setelah itu, gejala dapat hilang dan sembuh atau malah memberat. </p>
+                </div>
+            </div>
+            <div class="row containerCard">
+                <div class="cards">
+                    <img src="<?= $this->config->base_url()?>assets/img/home/flu.png" alt="Flu">
+                    <div class="contentCards">
+                        <h3>Demam</h3>
+                        <p>Jika suhu tubuh seseorang tinggi mencapai 38°</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="<?= $this->config->base_url()?>assets/img/home/batuk.png" alt="Batuk">
+                    <div class="contentCards">
+                        <h3>Batuk kering</h3>
+                        <p>Seseorang yang terkena virus corona akan mengalami batuk tanpa liur/batuk kering</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="<?= $this->config->base_url()?>assets/img/home/batuk2.png" alt="Batuk">
+                    <div class="contentCards">
+                        <h3>Sakit Flu</h3>
+                        <p>Suara yang parau karena sakit tenggorokan bisa disebabkan virus corona</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <img src="<?= $this->config->base_url()?>assets/img/home/sakit.png" alt="Batuk">
+                    <div class="contentCards">
+                        <h3>Sakit kepala</h3>
+                        <p>Ternyata sakit kepala juga bisa menjadi salah satu gejala saat terinfeksi virus Corona</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Akhir Body tentang gejala corona -->
