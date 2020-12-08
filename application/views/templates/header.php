@@ -15,13 +15,11 @@
 
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-
         <!--Let browser know website is optimized for mobile-->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-        <link rel="stylesheet" href="<?= $this->config->base_url()?>/assets/style/desktop.css">
-        <link rel="stylesheet" href="<?= $this->config->base_url()?>/assets/style/mobile.css">
+        <link rel="stylesheet" href="<?= $this->config->base_url()?>/assets/style/desktop.css?<?php echo time(); ?>">
+        <link rel="stylesheet" href="<?= $this->config->base_url()?>/assets/style/mobile.css?<?php echo time(); ?>"">
 
         <title>Cavenady</title>
     </head> 
