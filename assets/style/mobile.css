@@ -20,6 +20,10 @@
             margin-top: 5%;
         }
 
+        .img-1 {
+            height: 100%;
+        }
+
         .container {
             width: 100%;
         }
@@ -32,12 +36,25 @@
             width: 100%;
         }
 
+        .display-body-1 {
+            margin-top: 0px;
+        }
+
         .display-body-2-content-1 {
             margin-top: 5% !important;
         }
 
+        .display-body-2-content-1 .contentImg {
+            height: 50px;
+        }
+
+        .display-body-2-content-1 img{
+            width: 100%;
+            height: 100%;
+        }
+
         .content {
-            margin-left: 2%;
+            margin-left: 5%;
         }
 
         .display-body-3 .content1 {
@@ -79,6 +96,15 @@
 
         .cards .contentCards {
             margin-top: 5%;
+        }
+        
+        .contentStatistik {
+            margin-top: 10%;
+            grid-template-columns: 70%;
+        }
+
+        .statistikCard {
+            margin-top: 10%;
         }
 
         footer .contentFooter {

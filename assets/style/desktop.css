@@ -6,10 +6,9 @@ body {
 }
 
 /* CSS PAGE BERANDA */
-
 .headerFontNav {
     font-weight: bold !important;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #000000 !important;
 }
 
@@ -68,7 +67,7 @@ body {
 }
 
 .display-body-1 {
-    margin-top: 8%;
+    margin-top: 130px;
     position: relative;
     font-family: 'Mulish', sans-serif;
 }
@@ -149,7 +148,6 @@ body {
 
 .display-body-2-content-1 img{
     width: 100%;
-    height: 60%;
 }
 
 .content {
@@ -173,6 +171,8 @@ body {
     width: 100%;
     height: auto;
     background-color: #F7F5FC;
+    padding: 20px;
+    box-sizing: border-box;
     margin-top: 10%;
     font-family: 'Mulish', sans-serif;
 }
@@ -188,6 +188,7 @@ body {
 
 .display-body-3 .content1 .card{ 
     width: 100%;
+    height: 100% !important;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     overflow: hidden;
@@ -211,7 +212,7 @@ body {
 
 .display-body-3 .content1 .card .cardBody{
     width: 100%;
-    height: 60%;
+    height: 100%;
     padding: 30px;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
@@ -332,7 +333,6 @@ body {
 
  .cards img{
      width: 100%;
-     height: 100%;
  }
 
  .cards .contentCards {
@@ -343,14 +343,57 @@ body {
      color: #818181;
  }
 
- .cards .contentCards h3{
+ .cards .contentCards h3{ 
      margin: 0px;
      font-size: 1.5rem;
      font-weight: bold;
      color: #6F42C2 !important;
  }
-
  /* AKHIR CSS PAGE BERANDA */
+ 
+ .contentStatistik {
+     width: 100%;
+     display: grid;
+     grid-template-columns: 50%;
+     justify-content: center;
+     text-align: center;
+     font-family: 'Mulish', sans-serif;
+     margin-bottom: 4%;
+     margin-top: 10%;
+ }
+
+ .contentStatistik h2 {
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6F42C2;
+ }
+
+ .contentStatistik p {
+    color: #959595;
+ }
+
+ .statistikCard {
+    text-align: center;
+ }
+
+ .statistikCard h3{
+     font-size: 2rem;
+ }
+
+ .statistikCard p {
+    color: #959595;
+    text-transform: uppercase;
+ }
+
+ .statistikCard img{
+     width: 100%;
+     height: 70px;
+ }
+
+ #gambarTeam {
+     width: 100%;
+ }
 
 footer {
     width: 100%;

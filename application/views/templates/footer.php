@@ -8,10 +8,10 @@
                 </div>
                 <div class="content">
                     <h3>Tautan</h3>
-                    <a href="">Beranda</a>
-                    <a href="">Gejala</a>
+                    <a href="<?= $this->config->base_url()?>">Beranda</a>
+                    <a href="<?= $this->config->base_url()?>page/gejala">Gejala</a>
                     <a href="">Blog</a>
-                    <a href="">Tentang kami</a>
+                    <a href="<?= $this->config->base_url()?>page/tentang">Tentang kami</a>
                     <a href="">Kontak</a>
                 </div>
                 <div class="content">
