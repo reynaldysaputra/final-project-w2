@@ -3,13 +3,13 @@
 body {
     padding: 0px;
     margin: 0px;
+    font-family: 'Mulish', sans-serif !important;
 }
 
 /* CSS PAGE BERANDA */
-
 .headerFontNav {
     font-weight: bold !important;
-    font-size: 20px;
+    font-size: 1.5rem;
     color: #000000 !important;
 }
 
@@ -68,7 +68,7 @@ body {
 }
 
 .display-body-1 {
-    margin-top: 8%;
+    margin-top: 130px;
     position: relative;
     font-family: 'Mulish', sans-serif;
 }
@@ -149,7 +149,6 @@ body {
 
 .display-body-2-content-1 img{
     width: 100%;
-    height: 60%;
 }
 
 .content {
@@ -173,6 +172,8 @@ body {
     width: 100%;
     height: auto;
     background-color: #F7F5FC;
+    padding: 20px;
+    box-sizing: border-box;
     margin-top: 10%;
     font-family: 'Mulish', sans-serif;
 }
@@ -188,6 +189,7 @@ body {
 
 .display-body-3 .content1 .card{ 
     width: 100%;
+    height: 100% !important;
     box-shadow: 0 15px 30px 0 rgba(0, 0, 0, 0.05);
     border-radius: 10px;
     overflow: hidden;
@@ -211,7 +213,7 @@ body {
 
 .display-body-3 .content1 .card .cardBody{
     width: 100%;
-    height: 60%;
+    height: 100%;
     padding: 30px;
     box-sizing: border-box;
     font-family: 'Mulish', sans-serif;
@@ -332,7 +334,6 @@ body {
 
  .cards img{
      width: 100%;
-     height: 100%;
  }
 
  .cards .contentCards {
@@ -343,14 +344,213 @@ body {
      color: #818181;
  }
 
- .cards .contentCards h3{
+ .cards .contentCards h3{ 
      margin: 0px;
      font-size: 1.5rem;
      font-weight: bold;
      color: #6F42C2 !important;
  }
-
  /* AKHIR CSS PAGE BERANDA */
+ 
+ .contentStatistik {
+     width: 100%;
+     display: grid;
+     grid-template-columns: 50%;
+     justify-content: center;
+     text-align: center;
+     font-family: 'Mulish', sans-serif;
+     margin-bottom: 4%;
+     margin-top: 10%;
+ }
+
+ .contentStatistik h2 {
+    margin: 0px;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #6F42C2;
+ }
+
+ .contentStatistik p {
+    color: #959595;
+ }
+
+ .statistikCard {
+    text-align: center;
+ }
+
+ .statistikCard h3{
+     font-size: 2rem;
+ }
+
+ .statistikCard p {
+    color: #959595;
+    text-transform: uppercase;
+ }
+
+ .statistikCard img{
+     width: 100%;
+     height: 70px;
+ }
+
+ #gambarTeam {
+     width: 100%;
+ }
+
+ .cardTeam {
+     text-align: center;
+     color: #959595;
+     margin-top: 3%;
+     padding-left: 3% !important;
+     padding-right: 4% !important;
+     box-sizing: border-box;
+ }
+
+ .cardTeam h3{
+     font-size: 1.4rem;
+     color: #6F42C2;
+     font-weight: bold;
+ }
+
+ .cardTeam p{
+     line-height: 3.5vh;
+ }
+
+ .cardTeam .imgCard {
+     width: 200px;
+     height: 200px;
+     text-align: center;
+     margin: auto;
+ }
+
+ .cardTeam img{
+     width: 100%;
+     height: 100%;
+ }
+
+ .sosialMedia {
+     width: 50%;
+     margin: auto;
+     display: flex;
+     justify-content: center;
+     margin-top: 7%;
+ }
+
+ .icon {
+     width: 15px;
+     height: 15px;
+     margin-right: 7%;
+     display: flex;
+     align-items: center;
+ }
+
+ .icon img{
+     width: 100%;
+     height:100% !important;
+ }
+
+ #twitter{
+     margin-top: 1%;
+ }
+
+ .ContactContainer{
+     margin-top: 5%;
+ }
+
+ .contactContent {
+     display: flex;
+     align-items: center;
+ }
+
+ .inputContact {
+     padding: 50px !important;
+     padding-top: 20px !important;
+     box-sizing: border-box;
+ }
+
+ .inputNameContainer {
+     display: grid;
+     grid-template-columns: 48% 48%;
+     justify-content: center;
+     gap: 5%;
+ }
+
+ .inputNameContainer div{
+     width: 100%;
+     height: auto;
+ }
+
+ .inputContact label{
+     font-size: 1.1rem;
+     color: #696969;
+     display: block;
+     margin-top: 3% !important;
+ }
+
+ .inputContact input{
+     width: 100% !important; 
+     border: 1px solid #e7e7e7 !important;
+     border-radius: 5px !important;
+     margin-top: 3% !important;
+     color: #696969;
+     padding-left: 10px !important;
+     box-sizing: border-box !important;
+ }
+
+ .inputContact textarea{
+     margin-top: 3%;
+     border: 1px solid #e7e7e7 !important;
+     height: 20vh;
+     padding: 10px;
+     box-sizing: border-box;
+ }
+
+ .inputContact input:focus {
+     box-shadow: 0px 0px 0px 0px !important;
+     border: 1px solid #6F42C2 !important;
+ }
+
+ .inputContact textarea:focus {
+    box-shadow: 0px 0px 0px 0px !important;
+    outline: none;
+    border: 1px solid #6F42C2 !important;
+}
+
+.inputContact button {
+    margin-top: 5%;
+    padding: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    box-sizing: border-box;
+    background: #6F42C2;
+    color: white;
+    border-radius: 10px;
+    border: 0px;
+    cursor: pointer;
+}
+
+ .ContactContainer h4{
+    font-size: 1.3rem;
+    color: #6F42C2;
+    font-weight: bold;
+    margin-bottom: 5%;
+ }
+
+ .contactIcon {
+     background-color: #F8F5FC;
+     color: #6F42C2;
+     padding: 8px;
+     height: 100%;
+     border-radius: 50px;
+ }
+
+ .contactContent p{
+    color: #6F42C2;
+     margin-left: 3%;
+ }
+
+ .contactContent:first-of-type p{
+     color: #808080 !important; 
+ }
 
 footer {
     width: 100%;

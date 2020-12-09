@@ -28,28 +28,28 @@
         <nav class="navigation navbar-fixed">
             <div class="container">
                 <div class="nav-wrapper">
-                    <a href="#" class="headerFontNav">Cavenady</a>
+                    <a href="<?= $this->config->base_url()?>" class="headerFontNav">Cavenady</a>
 
                     <a href="#" class="sidenav-trigger" data-target="mobile-nav">
                         <i class="material-icons">menu</i>
                     </a>
 
                     <ul class="right hide-on-med-and-down "  >
-                        <li><a href="">Beranda</a></li>
-                        <li><a href="">Gejala</a></li>
+                        <li><a href="<?= $this->config->base_url()?>">Beranda</a></li>
+                        <li><a href="<?= $this->config->base_url()?>page/gejala">Gejala</a></li>
                         <li><a href="">Blog</a></li>
-                        <li><a href="">Tentang kami</a></li>
-                        <li><a href="">Kontak</a></li>
+                        <li><a href="<?= $this->config->base_url()?>page/tentang">Tentang kami</a></li>
+                        <li><a href="<?= $this->config->base_url()?>page/contact">Kontak</a></li>
                     </ul>
                 </div>
             </div>
         </nav>
 
         <ul class="sidenav" id="mobile-nav">
-            <li><a href="">Beranda</a></li>
-            <li><a href="">Gejala</a></li>
+            <li><a href="<?= $this->config->base_url()?>">Beranda</a></li>
+            <li><a href="<?= $this->config->base_url()?>page/gejala">Gejala</a></li>
             <li><a href="">Blog</a></li>
-            <li><a href="">Tentang kami</a></li>
-            <li><a href="">Kontak</a></li>
+            <li><a href="<?= $this->config->base_url()?>page/tentang">Tentang kami</a></li>
+            <li><a href="<?= $this->config->base_url()?>page/contact">Kontak</a></li>
         </ul>
         <!-- Akhir navbar -->
