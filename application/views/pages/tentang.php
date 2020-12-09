@@ -29,33 +29,6 @@
     </div>
     <!-- Akhir Display Container -->
 
-    <!-- Body tentang covid -->
-    <!-- <div class="container display-body-1">
-        <div class="row">
-            <div class="col xl6 l6 s12 image-container-1">
-                <img src="<?= $this->config->base_url()?>assets/img/tentang/manMask.jpg" alt="header" class='img-2'>
-                <div class="content-video">
-                    <p>Tonton Video</p>
-                    <div class="video">
-                        <span class="material-icons">
-                            <a data-fancybox href="https://www.youtube.com/watch?v=5h-OXcjc4TY" style='color:white;'>play_arrow</a>
-                        </span>
-                    </div>
-                </div>
-            </div>
-            <div class="col xl6 l6 s12 display-body-1-content-2">
-                <h1>Apa itu virus corona?</h1>
-                <p>Virus corona merupakan keluarga besar virus yang menyebabkan penyakit pada manusia dan hewan. Virus Korona atau coronavirus adalah keluarga jenis virus yang bisa menyebabkan penyakit dari yang ringan seperti flu biasa hingga parah seperti Severe Acute Respiratory Syndrome (SARS)</p>
-                <ul class="checklist">
-                    <li><span class="material-icons">done</span>Dapat menular.</li>
-                    <li><span class="material-icons">done</span>Menyebabkan kematian</li>
-                    <li><span class="material-icons">done</span>Belum ditemukan obatnya</li>
-                </ul>
-            </div>
-        </div>
-    </div> -->
-    <!-- Akhir Body tentang covid -->
-
     <!-- Body Team -->
     <div class="container" id='TeamContainer'>
         <div class="contentStatistik">
@@ -70,7 +43,7 @@
                     <img src="<?= $this->config->base_url()?>assets/img/tentang/me.png" alt="Me">
                 </div>
                 <h3>Reynaldy Saputra</h3>
-                <p>Hai saya Reynaldy Saputra, setelah saya lulus dari front end developer di Hacktiv8, saya sudah banyak melakukan eksperimen, salah satunya adalah membuat aplikasi web. dan saat ini saya kuliah di salah satu universitas di Jakarta dan juga freelance.</p>
+                <p>Hai saya Reynaldy Saputra, setelah saya lulus dari Hacktiv8, saya sudah banyak melakukan eksperimen, salah satunya adalah membuat aplikasi web. dan saat ini saya kuliah di salah satu universitas di Jakarta dan juga freelance.</p>
                 <div class="sosialMedia">
                     <div class="icon">
                         <a href="https://www.facebook.com/reynaldi.cosambi" target='_blank'><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDk2LjEyNCA5Ni4xMjMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPHBhdGggZD0iTTcyLjA4OSwwLjAyTDU5LjYyNCwwQzQ1LjYyLDAsMzYuNTcsOS4yODUsMzYuNTcsMjMuNjU2djEwLjkwN0gyNC4wMzdjLTEuMDgzLDAtMS45NiwwLjg3OC0xLjk2LDEuOTYxdjE1LjgwMyAgIGMwLDEuMDgzLDAuODc4LDEuOTYsMS45NiwxLjk2aDEyLjUzM3YzOS44NzZjMCwxLjA4MywwLjg3NywxLjk2LDEuOTYsMS45NmgxNi4zNTJjMS4wODMsMCwxLjk2LTAuODc4LDEuOTYtMS45NlY1NC4yODdoMTQuNjU0ICAgYzEuMDgzLDAsMS45Ni0wLjg3NywxLjk2LTEuOTZsMC4wMDYtMTUuODAzYzAtMC41Mi0wLjIwNy0xLjAxOC0wLjU3NC0xLjM4NmMtMC4zNjctMC4zNjgtMC44NjctMC41NzUtMS4zODctMC41NzVINTYuODQydi05LjI0NiAgIGMwLTQuNDQ0LDEuMDU5LTYuNyw2Ljg0OC02LjdsOC4zOTctMC4wMDNjMS4wODIsMCwxLjk1OS0wLjg3OCwxLjk1OS0xLjk2VjEuOThDNzQuMDQ2LDAuODk5LDczLjE3LDAuMDIyLDcyLjA4OSwwLjAyeiIgZmlsbD0iIzZmNDJjMiIgZGF0YS1vcmlnaW5hbD0iIzAwMDAwMCIgc3R5bGU9IiIgY2xhc3M9IiI+PC9wYXRoPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=" alt="facebook"></a>
