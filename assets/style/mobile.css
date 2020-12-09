@@ -107,6 +107,14 @@
             margin-top: 10%;
         }
 
+        .cardTeam {
+            margin-top: 15%;
+        }
+
+        #TeamContainer {
+            margin-bottom: 25% !important;
+        }
+
         footer .contentFooter {
             grid-template-columns: 100%;
         }

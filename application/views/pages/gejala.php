@@ -29,8 +29,8 @@
     </div>
     <!-- Akhir Display Container -->
 
-        <!-- Statistik Coronavirus -->
-        <div class="container">
+    <!-- Statistik Coronavirus -->
+    <div class="container">
         <div class="contentStatistik">
             <div>
                 <h2>Statistik Coronavirus</h2>
