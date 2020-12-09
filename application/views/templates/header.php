@@ -39,7 +39,7 @@
                         <li><a href="<?= $this->config->base_url()?>page/gejala">Gejala</a></li>
                         <li><a href="">Blog</a></li>
                         <li><a href="<?= $this->config->base_url()?>page/tentang">Tentang kami</a></li>
-                        <li><a href="">Kontak</a></li>
+                        <li><a href="<?= $this->config->base_url()?>page/contact">Kontak</a></li>
                     </ul>
                 </div>
             </div>
@@ -50,6 +50,6 @@
             <li><a href="<?= $this->config->base_url()?>page/gejala">Gejala</a></li>
             <li><a href="">Blog</a></li>
             <li><a href="<?= $this->config->base_url()?>page/tentang">Tentang kami</a></li>
-            <li><a href="">Kontak</a></li>
+            <li><a href="<?= $this->config->base_url()?>page/contact">Kontak</a></li>
         </ul>
         <!-- Akhir navbar -->
