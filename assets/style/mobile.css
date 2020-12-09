@@ -100,10 +100,50 @@
         
         .contentStatistik {
             margin-top: 10%;
-            grid-template-columns: 70%;
+            grid-template-columns: 80%;
         }
 
         .statistikCard {
+            margin-top: 10%;
+        }
+
+        .cardTeam {
+            margin-top: 15%;
+        }
+
+        #TeamContainer {
+            margin-bottom: 25% !important;
+            padding: 0px;
+        }
+
+        #TeamContainer2 {
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        
+        .ContactContainer{
+            padding: 30px !important;
+            box-sizing: border-box;
+        }
+
+        .inputContact {
+            width: 100%;
+            padding: 0px !important;
+        }
+
+        .inputContact label{
+            margin-top: 5% !important;
+        }
+
+        .inputNameContainer {
+            grid-template-columns: 100%;
+        }
+
+        .ContactContainer h4{
+            margin-top: 25%;
+        }
+
+        .inputContact button {
             margin-top: 10%;
         }
 
@@ -114,5 +154,14 @@
         footer .developeWithContainer {
             grid-template-columns: 90%;
             text-align: center;
+        }
+}
+
+@media only screen  
+     and (min-width : 200px)
+     and (max-width : 320px)
+     and (orientation : portrait){
+        .headerFontNav {
+            margin-left: 40%;
         }
 }
