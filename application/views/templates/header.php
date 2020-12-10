@@ -6,6 +6,10 @@
         
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
         <script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+
+        <!-- SweetAlert -->
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
             
         <!-- Materialize -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -37,7 +41,7 @@
                     <ul class="right hide-on-med-and-down "  >
                         <li><a href="<?= $this->config->base_url()?>">Beranda</a></li>
                         <li><a href="<?= $this->config->base_url()?>page/gejala">Gejala</a></li>
-                        <li><a href="">Blog</a></li>
+                        <li><a href="<?= $this->config->base_url()?>page/blog">Blog</a></li>
                         <li><a href="<?= $this->config->base_url()?>page/tentang">Tentang kami</a></li>
                         <li><a href="<?= $this->config->base_url()?>page/contact">Kontak</a></li>
                     </ul>
@@ -48,7 +52,7 @@
         <ul class="sidenav" id="mobile-nav">
             <li><a href="<?= $this->config->base_url()?>">Beranda</a></li>
             <li><a href="<?= $this->config->base_url()?>page/gejala">Gejala</a></li>
-            <li><a href="">Blog</a></li>
+            <li><a href="<?= $this->config->base_url()?>page/blog">Blog</a></li>
             <li><a href="<?= $this->config->base_url()?>page/tentang">Tentang kami</a></li>
             <li><a href="<?= $this->config->base_url()?>page/contact">Kontak</a></li>
         </ul>

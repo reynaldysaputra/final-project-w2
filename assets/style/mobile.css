@@ -66,6 +66,10 @@
             font-size: 1.5rem;
         }
 
+        .display-body-3 .content2{
+            padding: 15px;
+        }
+
         .display-body-3 .content2 h2{
             font-size: 2rem;
         }
@@ -145,6 +149,13 @@
 
         .inputContact button {
             margin-top: 10%;
+        }
+
+        .blogRow {
+            padding: 5% !important;
+            padding-top: 0% !important;
+            padding-bottom: 30% !important;
+            box-sizing: border-box;
         }
 
         footer .contentFooter {

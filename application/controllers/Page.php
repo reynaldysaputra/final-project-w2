@@ -14,6 +14,12 @@ class Page extends CI_Controller {
 		$this->load->view('templates/footer');
 	}
 
+	public function blog() {
+		$this->load->view('templates/header');
+		$this->load->view('pages/blog');
+		$this->load->view('templates/footer');
+	}
+
 	public function tentang() {
 		$this->load->view('templates/header');
 		$this->load->view('pages/tentang');
