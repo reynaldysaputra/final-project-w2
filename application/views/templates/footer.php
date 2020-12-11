@@ -10,9 +10,9 @@
                     <h3>Tautan</h3>
                     <a href="<?= $this->config->base_url()?>">Beranda</a>
                     <a href="<?= $this->config->base_url()?>page/gejala">Gejala</a>
-                    <a href="">Blog</a>
+                    <a href="<?= $this->config->base_url()?>page/blog">Blog</a>
                     <a href="<?= $this->config->base_url()?>page/tentang">Tentang kami</a>
-                    <a href="">Kontak</a>
+                    <a href="<?= $this->config->base_url()?>page/contact">Kontak</a>
                 </div>
                 <div class="content">
                     <h3>Tautan bermanfaat</h3>
@@ -37,8 +37,24 @@
 
       <script>
         	$(document).ready(function(){
-            $('.sidenav').sidenav();
-          });
+                $('.sidenav').sidenav();
+            });
+
+            const cardBlog = document.querySelectorAll('.cardBlog');
+
+            cardBlog.forEach(item => {
+                item.addEventListener('click', function() {
+                    Swal.fire({
+                        title: 'Blog terkunci!',
+                        text: 'Mohon maaf atas ketidaknyamanannya, blog untuk sementara kami kunci, terima kasih.',
+                        confirmButtonColor: '#DBB028',
+                        imageUrl: 'https://image.flaticon.com/icons/png/512/891/891399.png',
+                        imageWidth: 200,
+                        imageHeight: 200,
+                        imageAlt: 'Custom image',
+                    })
+                })
+            })
       </script>
   </body>
 </html>

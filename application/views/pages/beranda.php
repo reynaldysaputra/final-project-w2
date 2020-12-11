@@ -214,7 +214,7 @@
                     <img src="<?= $this->config->base_url()?>assets/img/home/batuk2.png" alt="Batuk">
                     <div class="contentCards">
                         <h3>Sakit Flu</h3>
-                        <p>Suara yang parau karena sakit tenggorokan bisa disebabkan virus corona</p>
+                        <p>Suara yang parah karena sakit tenggorokan bisa disebabkan virus corona</p>
                     </div>
                 </div>
                 <div class="cards">
