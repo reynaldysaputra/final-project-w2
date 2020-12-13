@@ -20,6 +20,10 @@
             margin-top: 5%;
         }
 
+        .img-1 {
+            height: 100%;
+        }
+
         .container {
             width: 100%;
         }
@@ -32,12 +36,25 @@
             width: 100%;
         }
 
+        .display-body-1 {
+            margin-top: 0px;
+        }
+
         .display-body-2-content-1 {
             margin-top: 5% !important;
         }
 
+        .display-body-2-content-1 .contentImg {
+            height: 50px;
+        }
+
+        .display-body-2-content-1 img{
+            width: 100%;
+            height: 100%;
+        }
+
         .content {
-            margin-left: 2%;
+            margin-left: 5%;
         }
 
         .display-body-3 .content1 {
@@ -47,6 +64,10 @@
 
         .display-body-3 .content1 .card .cardBody h3{
             font-size: 1.5rem;
+        }
+
+        .display-body-3 .content2{
+            padding: 15px;
         }
 
         .display-body-3 .content2 h2{
@@ -80,6 +101,62 @@
         .cards .contentCards {
             margin-top: 5%;
         }
+        
+        .contentStatistik {
+            margin-top: 10%;
+            grid-template-columns: 80%;
+        }
+
+        .statistikCard {
+            margin-top: 10%;
+        }
+
+        .cardTeam {
+            margin-top: 15%;
+        }
+
+        #TeamContainer {
+            margin-bottom: 25% !important;
+            padding: 0px;
+        }
+
+        #TeamContainer2 {
+            padding: 30px;
+            box-sizing: border-box;
+        }
+        
+        .ContactContainer{
+            padding: 30px !important;
+            box-sizing: border-box;
+        }
+
+        .inputContact {
+            width: 100%;
+            padding: 0px !important;
+        }
+
+        .inputContact label{
+            margin-top: 5% !important;
+        }
+
+        .inputNameContainer {
+            grid-template-columns: 100%;
+        }
+
+        .ContactContainer h4{
+            margin-top: 25%;
+        }
+
+        .inputContact button {
+            margin-top: 10%;
+        }
+
+        .blogRow {
+            padding: 5% !important;
+            padding-top: 0% !important;
+            padding-bottom: 30% !important;
+            box-sizing: border-box;
+        }
 
         footer .contentFooter {
             grid-template-columns: 100%;
@@ -88,5 +165,14 @@
         footer .developeWithContainer {
             grid-template-columns: 90%;
             text-align: center;
+        }
+}
+
+@media only screen  
+     and (min-width : 200px)
+     and (max-width : 320px)
+     and (orientation : portrait){
+        .headerFontNav {
+            margin-left: 40%;
         }
 }
