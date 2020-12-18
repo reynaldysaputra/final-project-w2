@@ -1,5 +1,5 @@
 <?php
-/**
+/**X>l29\pHQ\MytQ~e
  * CodeIgniter
  *
  * An open source application development framework for PHP

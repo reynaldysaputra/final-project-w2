@@ -66,6 +66,10 @@
             font-size: 1.5rem;
         }
 
+        .display-body-3 .content2{
+            padding: 15px;
+        }
+
         .display-body-3 .content2 h2{
             font-size: 2rem;
         }
@@ -75,7 +79,12 @@
         }
 
         .display-body-4-content-2 {
+            width: 100%;
             grid-template-columns: 100%;
+        }
+
+        .display-body-4-content-3 {
+            margin-top: 5vh;
         }
 
         .containerCard {
@@ -104,11 +113,15 @@
         }
 
         .statistikCard {
-            margin-top: 10%;
+            margin-top: 10vh;
         }
 
         .cardTeam {
-            margin-top: 15%;
+            margin-top: 15vh;
+        }
+
+        .cardTeam:first-child {
+            margin-top: 15% !important;
         }
 
         #TeamContainer {
@@ -147,6 +160,17 @@
             margin-top: 10%;
         }
 
+        .blogRow {
+            padding: 5% !important;
+            padding-top: 0% !important;
+            padding-bottom: 30% !important;
+            box-sizing: border-box;
+        }
+
+        #gambarTeam {
+            width: 80%;
+        }
+
         footer .contentFooter {
             grid-template-columns: 100%;
         }
@@ -155,6 +179,7 @@
             grid-template-columns: 90%;
             text-align: center;
         }
+        
 }
 
 @media only screen  
