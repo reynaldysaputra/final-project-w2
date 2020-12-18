@@ -15,35 +15,41 @@
     </div>
     <!-- Akhir Display Container -->
 
-    <!-- Contact -->
-    <div class="container ContactContainer">
+     <!-- Contact -->
+     <div class="container ContactContainer">
         <div class="row">
             <div class="col xl7 lg7 sm12 inputContact">
-                <form action="">
+                <form action="<?= base_url('page/feedback');?>" method="post">
                     <div class="inputNameContainer">
                         <div>
                             <label for="namadepan">Nama Depan</label>
-                            <input type="text" id='namadepan'>
+                            <input type="text" id='namadepan' name="namadepan" value="<?= set_value('namadepan');?>">
+                            <?= form_error('namadepan','<small class="text-danger pl-3" style="color:red;">','</small>')?>
                         </div>
                         <div>
                             <label for="namabelakang">Nama Belakang</label>
-                            <input type="text" id='namabelakang'>
+                            <input type="text" id='namabelakang' name="namabelakang" value="<?= set_value('namabelakang');?>">
+                            <?= form_error('namabelakang','<small class="text-danger pl-3" style="color:red;">','</small>')?>
                         </div>
                     </div>
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" id='email'>
+                        <input type="email" id='email' name="email" value="<?= set_value('email');?>">
+                        <?= form_error('email','<small class="text-danger pl-3" style="color:red;">','</small>')?>
                     </div>
                     <div>
                         <label for="subject">Subject</label>
-                        <input type="text" id='subject'>
+                        <input type="text" id='subject' name="subject" value="<?= set_value('subject');?>">
+                        <?= form_error('subject','<small class="text-danger pl-3" style="color:red;">','</small>')?>
                     </div>
                     <div>
                         <label for="pesan">Pesan</label>
-                        <textarea id='pesan'></textarea>
+                        <textarea id='pesan' name="pesan"></textarea>
+                        <?= form_error('pesan','<small class="text-danger pl-3" style="color:red;">','</small>')?>
                     </div>
 
                     <button type='submit'>Kirim Pesan</button>
+                    <?= $this->session->flashdata('pesan');?>
                 </form>
             </div>
             <div class="col xl5 lg5 sm12">
