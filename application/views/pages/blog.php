@@ -24,7 +24,7 @@
             <div class="col xl4 lg4 sm4 cardBlog">
                 <div class="imgBlog">
                     <img src="https://glints.com/id/lowongan/wp-content/uploads/2020/10/irishnews.v1-1024x648.jpg" alt="header">
-                    <div class="date">6 Jan, 2020</div>
+                    <div class="date">6 Mei, 2020</div>
                 </div>
                 <h3>WFH Berbulan-bulan, Waspada Cabin Fever!</h3>
             </div>

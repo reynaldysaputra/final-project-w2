@@ -393,7 +393,7 @@ body {
  }
 
  #gambarTeam {
-     width: 100%;
+     width: auto;
  }
 
  .cardTeam {
@@ -403,6 +403,10 @@ body {
      padding-left: 3% !important;
      padding-right: 4% !important;
      box-sizing: border-box;
+ }
+
+ .cardTeam:first-child {
+     margin-top: 3% !important;
  }
 
  .cardTeam h3{
@@ -497,6 +501,7 @@ body {
  }
 
  .inputContact textarea{
+     resize: none;
      margin-top: 3%;
      border: 1px solid #e7e7e7 !important;
      height: 20vh;

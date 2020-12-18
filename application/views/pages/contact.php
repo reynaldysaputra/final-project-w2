@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row">
                 <div class="col xl5 l5 s12">
-                    <p class='p-1'>Kontak</p>
+                    <p class='p-1'>Contact</p>
                     <h1 class='h-1'>Kontak Kami</h1>
                     <p id='contentHeader'>Hai, tentunya kami mendirikan website ini tidak sendirian, Kami memiliki beberapa tim yang hebat yang siap membantu anda, mulai dari junior hingga senior. Jika anda tertarik dengan website dan ingin menghubungi salah satu rekan kerja kami ini silahkan hubungi kami dibawah ini.</p>
                 </div>

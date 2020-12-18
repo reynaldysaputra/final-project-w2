@@ -79,7 +79,12 @@
         }
 
         .display-body-4-content-2 {
+            width: 100%;
             grid-template-columns: 100%;
+        }
+
+        .display-body-4-content-3 {
+            margin-top: 5vh;
         }
 
         .containerCard {
@@ -108,11 +113,15 @@
         }
 
         .statistikCard {
-            margin-top: 10%;
+            margin-top: 10vh;
         }
 
         .cardTeam {
-            margin-top: 15%;
+            margin-top: 15vh;
+        }
+
+        .cardTeam:first-child {
+            margin-top: 15% !important;
         }
 
         #TeamContainer {
@@ -158,6 +167,10 @@
             box-sizing: border-box;
         }
 
+        #gambarTeam {
+            width: 80%;
+        }
+
         footer .contentFooter {
             grid-template-columns: 100%;
         }
@@ -166,6 +179,7 @@
             grid-template-columns: 90%;
             text-align: center;
         }
+        
 }
 
 @media only screen  
